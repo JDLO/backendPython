@@ -1,0 +1,72 @@
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+### Ambientes Virtuales (Venv) ###
+.venv/
+venv/
+ENV/
+env/
+bin/
+include/
+lib/
+share/
+
+### FastAPI / Configuración de la App ###
+.env
+.flaskenv
+*.env
+# No ignores .env.example si lo usas para documentar variables necesarias
+!.env.example
+
+### IDEs (VS Code, PyCharm) ###
+.vscode/
+.idea/
+*.swp
+*.swo
+
+### Testing & Cobertura ###
+htmlcov/
+.tox/
+.nosetests
+.pytest_cache/
+.cache/
+v/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.coverage
+.coverage.*
+
+### Base de Datos (Si usas SQLite local) ###
+*.db
+*.sqlite3
+
+### Logs ###
+*.log
+logs/
+
+### OS Específicos ###
+.DS_Store
+Thumbs.db
